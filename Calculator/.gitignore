@@ -1,0 +1,24 @@
+# ===== Результаты сборки =====
+[Bb]in/
+[Oo]bj/
+
+# ===== Пользовательские настройки Visual Studio =====
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===== Файлы логов =====
+log.txt
+*.log
+
+# ===== Кэш пакетов NuGet =====
+packages/
+*.nupkg
+
+# ===== Временные файлы =====
+*.tmp
+*.temp
+~$*
+*.cache
