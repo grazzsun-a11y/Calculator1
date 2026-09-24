@@ -1,29 +1,22 @@
-# Автоматически нормализовать окончания строк
+# Автоопределение текстовых файлов
 * text=auto
 
-# Исходный код — всегда LF в репозитории
-*.cs      text diff=csharp
-*.xaml    text
-*.config  text
-*.xml     text
-*.json    text
-*.md      text
+# C# — LF
+*.cs text eol=lf
+*.xaml text eol=lf
+*.csproj text eol=lf
+*.sln text eol=lf
 
-# Скрипты — LF
-*.sh      text eol=lf
-*.bat     text eol=crlf
-*.cmd     text eol=crlf
-
-# Бинарные файлы — не трогать
-*.png     binary
-*.jpg     binary
-*.jpeg    binary
-*.gif     binary
-*.ico     binary
-*.pdf     binary
-*.zip     binary
-*.7z      binary
-*.exe     binary
-*.dll     binary
-*.pdb     binary
-*.suo     binary
+# Бинарные файлы
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.dll binary
+*.exe binary
+*.pdb binary
+*.suo binary
+*.pdf binary
+*.zip binary
+*.7z binary
